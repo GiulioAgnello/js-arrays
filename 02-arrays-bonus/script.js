@@ -3,9 +3,9 @@ const teachers = ["Nathan", "Ed", "Fabio", "Phil", "Carlo", "Lewis", "Luca"]; //
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
 // e salva il risultato nella variabile reversedTeachers
 
-for (let i = teachers.length; i > 0; i--) {
-  const reversedTeachers = teachers;
-  console.log(i + reversedTeachers);
+for (let i = teachers.length; i >= 0; i--) {
+  const reversedTeachers = teachers[i];
+  console.log(reversedTeachers);
 }
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
